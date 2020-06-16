@@ -1,0 +1,17 @@
+name: "Autom ML Classifier Action"
+description: "Get started with Building A Classifier Model"
+author: "Ritheesh Baradwaj"
+inputs:
+  myInput:
+    description: "Provide Inputs For Model Classification"
+    required: true
+    default: "zeroinputs"
+outputs:
+  myOutput:
+    description: "Output from the action"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: 'box'
+  color: 'blue'
