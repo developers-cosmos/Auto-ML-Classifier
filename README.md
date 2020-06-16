@@ -15,7 +15,7 @@ jobs:
     steps:
     - name: Train the model
       id: model
-      uses: RitheeshBaradwaj/LinearRegression-GitHubActions@master
+      uses: developers-cosmos/Auto-ML-Classifier@master
       with:
         myInput: "[5.1,3.5,1.4,0.2]"
     - name: Upload model.pkl 
